@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "AlamofireObjectMapper",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -13,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4")),
-        .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", .upToNextMajor(from: "4.2.0"))
+        .package(url: "https://github.com/yjdv/ObjectMapper.git", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

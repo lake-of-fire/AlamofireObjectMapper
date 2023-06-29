@@ -12,10 +12,10 @@
     {
       "identity" : "objectmapper",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/tristanhimmelman/ObjectMapper.git",
+      "location" : "https://github.com/yjdv/ObjectMapper.git",
       "state" : {
-        "revision" : "0b96a734de3ea1c87374ae677064f86adb0716ec",
-        "version" : "4.2.0"
+        "branch" : "master",
+        "revision" : "cf3d7ec0689c4bc7d5bbea7f71ee201721bae00e"
       }
     }
   ],
